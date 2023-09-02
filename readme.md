@@ -7,7 +7,7 @@ You can install it via `composer require rendix2/giphy`.
 
 Example of usage 
 
-`$giphy = new Giphy('{ApikEy}', new \GuzzleHttp\Client());`
+`$giphy = new Giphy('{ApiKey}', new \GuzzleHttp\Client());`
 
 `$result = $giphy->search('fast car');`
 
