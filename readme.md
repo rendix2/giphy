@@ -9,7 +9,7 @@ Example of usage
 
 `$giphy = new Giphy('{ApikEy}', new \GuzzleHttp\Client());`
 
-`$result = $giphy->serch('fast car');`
+`$result = $giphy->search('fast car');`
 
 That's all Enjoy.
 
